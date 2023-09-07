@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>My profile</title>
+  </head>
+  <body>
+    <header>
+      <h1 data-testid="slackUserName">LazyDev</h1>
+    </header>
+   <section class="profile">
+    <img
+    src="./slack-profile-picture.jpg"
+    alt="slack profile picture"
+    data-testid="slackDisplayImage"
+  />
+  <div class="clock">
+    <p id="date" data-testid="currentDayOfTheWeek"></p>
+    <p  id="time"="currentUTCTime"></p>
+  </div>
+  <p data-testid="myTrack">Frontend</p>
+  <a
+    href="https://github.com/harlihm/stage1"
+    data-testid="githubURL"
+    >GitHub Repository</a
+  >
+   </section>
+   <script src="./script.js"></script>
+  </body>
+</html>

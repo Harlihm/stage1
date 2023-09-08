@@ -13,4 +13,4 @@ date.append(`${now.toLocaleDateString(undefined,options)}`);
 time.append(`${now.getUTCHours()}:${now.getMinutes()}:${now.getSeconds()}:${now.getMilliseconds()}`);
 
 }
-setInterval(updateDateTime,1000);
+setInterval(updateDateTime,6000);

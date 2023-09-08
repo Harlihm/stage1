@@ -3,30 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
     <title>My profile</title>
   </head>
   <body>
-    <header>
-      <h1 data-testid="slackUserName">LazyDev</h1>
-    </header>
-   <section class="profile">
-    <img
-    src="./slack-profile-picture.jpg"
-    alt="slack profile picture"
-    data-testid="slackDisplayImage"
-  />
-  <div class="clock">
-    <p id="date" data-testid="currentDayOfTheWeek"></p>
-    <p  id="time"="currentUTCTime"></p>
-  </div>
-  <p data-testid="myTrack">Frontend</p>
-  <a
-    href="https://github.com/harlihm/stage1"
-    data-testid="githubURL"
-    >GitHub Repository</a
-  >
-   </section>
-   <script src="./script.js"></script>
+  
+    <main class="profile">
+      <div class="container">
+        <p class="current_day" data-testid="currentDayOfTheWeek"></p>
+        <p class="current_time" data-testid="currentUTCTime"></p>
+      </div>
+      <img
+        src="./slack-profile-picture.jpg"
+        alt="slack profile picture"
+        data-testid="slackDisplayImage"
+      />
+      <h1 class="slackName" data-testid="slackUserName">LazyDev</h1>
+
+      <p class="myTrack" data-testid="myTrack">Frontend Development</p>
+      <p class="info">
+        i am a frontend developer and i have taken second nature in bringing aesthetics and functionality to reality using code.
+      </p>
+      <a href="https://github.com/harlihm/stage1" data-testid="githubURL"
+        >GitHub Repository</a
+      >
+    </main>
+    <script src="./script.js"></script>
   </body>
 </html>

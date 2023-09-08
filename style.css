@@ -39,3 +39,14 @@ header{
     border-radius: 50%;
 }
 
+.section a {
+  background-color: black;
+  padding: 0.5rem 3rem;
+  display: inline-block;
+  border-radius: 0.25rem;
+  color: white;
+  text-decoration: none;
+  margin-top: 2rem;
+  border: solid 2px black;
+}
+
